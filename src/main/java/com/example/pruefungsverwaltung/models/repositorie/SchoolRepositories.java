@@ -15,7 +15,5 @@ public interface SchoolRepositories extends JpaRepository<SchoolClass, Long> {
             "INNER join Grade g on (s = g.student) " +
             "where g.grade >= 5 AND sc = ?1")
     public List<Student> getFailedStudents(SchoolClass sc);
-    //@Query(value = "SELECT distinct ")
-    //public List<Student> getFailedStudentsByClassId(long classId);
 }
 
