@@ -1,7 +1,6 @@
 package com.example.pruefungsverwaltung.application;
 
 import com.example.pruefungsverwaltung.PruefungsverwaltungApplication;
-import com.example.pruefungsverwaltung.PruefungsverwaltungApplication;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
