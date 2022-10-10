@@ -68,4 +68,17 @@ public class Student {
     public Long getId() {
         return id;
     }
+
+    public SchoolClass getSchoolClass() {
+        return schoolClass;
+    }
+
+    public void setSchoolClass(SchoolClass schoolClass) {
+        this.schoolClass = schoolClass;
+    }
+
+    @Override
+    public String toString() {
+        return Firstname + " " + Lastname;
+    }
 }

@@ -36,6 +36,11 @@ public class SchoolClass {
         this.students = students;
     }
 
+    @Override
+    public String toString() {
+        return this.Title;
+    }
+
     public Long getId() {
         return id;
     }
